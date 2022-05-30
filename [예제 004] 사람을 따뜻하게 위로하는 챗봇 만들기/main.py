@@ -6,6 +6,12 @@ import utils as U
 # 챗봇이 인식할 키워드와 답변입니다.
 # 추가하거나, 제거하거나, 문장을 수정해 보세요!
 reply_dict = {
+    # 인사 관련 토픽
+    "hello": [
+            "Hi! This is your chatbot friend, Eliza!",
+            "Well, nice to see you!",
+            "I hope you come to me more often!"
+        ],
     # 가족 관련 토픽
     "family": [
             "Tell me more about your family.",
@@ -28,19 +34,19 @@ reply_dict = {
     "love": [
             "Are in love with somebody?",
             "I think love is what you need.",
-            "Love is beautiful!"
+            "Do you love *"
         ],
     # 증오 관련 토픽
     "hate": [
             "Do you hate that so much?",
-            "Why do you think you have to hate that?",
+            "Why do you think you have to hate *",
             "I hove the hate turn into love and peace."
         ],
     # 두려움 관련 토픽
     "fear": [
             "Fear makes you unhappy.",
             "Everyone has fear. It's not a shame.",
-            "I believe you are more than the fear!"
+            "Why are you frightened by *"
         ],
     # 슬픔 관련 토픽
     "sad": [
@@ -74,87 +80,69 @@ reply_dict = {
         ],
     # 직업 관련 토픽
     "job": [
-            "",
-            "",
-            ""
-        ],
-    # 학업 관련 토픽
-    "study": [
-            "",
-            "",
-            ""
+            "Do you feel competent in your work?",
+            "Does your job satisfy yourself?",
+            "What is your relationship with your boss like?"
         ],
     # 우울함 관련 토픽
     "depression": [
-            "",
-            "",
-            ""
-        ],
-    # 용기 관련 토픽
-    "courage": [
-            "",
-            "",
-            ""
+            "What do you think about when you're alone?",
+            "How long have you been?",
+            "I hope I can give a little piece of peace."
         ],
     # 종교 관련 토픽
     "religion": [
-            "",
-            "",
-            ""
-        ],
-    # 인간관계 관련 토픽
-    "relationship": [
-            "",
-            "",
-            ""
+            "Do you believe in God?",
+            "Are you a religious person?",
+            "Does your faith make you feel comfortable?"
         ],
     # 돈 관련 토픽
     "money": [
-            "",
-            "",
-            ""
+            "Does money makes you laugh and cry?",
+            "How do you react to financial stresses?",
+            "Well, a chatbot doesn't need money. So I can't understand it."
         ],
     # 기분 관련 토픽
     "feel": [
-            "",
-            "",
-            ""
-        ],
-    # 인사 관련 토픽
-    "hello": [
-            "",
-            "",
-            ""
+            "Tell me more about such feelings.",
+            "Do you often feel *",
+            "Do you enjoy feeling *"
         ],
     # 이름 관련 토픽
     "name": [
-            "",
-            "",
-            ""
+            "Well, actually name is not an important thing for a chatbot.",
+            "I don't care about names. Go on.",
+            "Does human consider name precious? A chatbot doesn't."
+        ],
+    # 원해
+    "want": [
+            "Do you want *",
+            "I know that you want *",
+            "Do you really want *"
         ],
     # 2인칭 발화 관련 토픽
     "you": [
-            "",
-            "",
-            ""
+            "Well, I want to discuss on you. Not me.",
+            "A secret makes a woman woman.",
+            "Oh, I *"
         ],
     # 2인칭 소유격 발화 관련 토픽
     "your": [
-            "",
-            "",
-            ""
+            "What about your own *",
+            "Why are you concerned about my *",
+            "Well, i don't like that so much."
         ],
     # 1인칭 발화 관련 토픽
     "i": [
-            "",
-            "",
-            ""
+            "Oh, you *",
+            "Tell me more.",
+            "That's interesting."
         ],
     # 1인칭 소유격 발화 관련 토픽
     "my": [
-            "",
-            "",
-            ""
+            "Tell me more about it.",
+            "Well, do you care?",
+            "So you are happy?"
         ],
     # 3인칭 관련 토픽
     "they": [
@@ -222,98 +210,26 @@ reply_dict = {
             "",
             ""
         ],
-    # 1인칭 가능성 관련 토픽
-    "can i": [
+    # 가능성 관련 토픽
+    "can": [
             "",
             "",
             ""
         ],
-    # 2인칭 가능성 관련 토픽
-    "can you": [
+    # 가능성 부정 관련 토픽
+    "can't": [
             "",
             "",
             ""
         ],
-    # 1인칭 가능성 부정 관련 토픽
-    "i can't": [
-            "",
-            "",
-            ""
-        ],
-    # 2인칭 가능성 부정관련 토픽
-    "you can't": [
-            "",
-            "",
-            ""
-        ],
-    # 1인칭 be동사 관련 토픽
-    "i am": [
-            "",
-            "",
-            ""
-        ],
-    # 2인칭 be동사 관련 토픽
-    "you are": [
-            "",
-            "",
-            ""
-        ],
-    # 1인칭 부정동사 관련 토픽
-    "i don't": [
-            "",
-            "",
-            ""
-        ],
-    # 2인칭 부정동사 관련 토픽
-    "you don't": [
-            "",
-            "",
-            ""
-        ],
-    # 3인칭 부정동사 관련 토픽
-    "they don't": [
-            "",
-            "",
-            ""
-        ],
-    # 제안 관련
-    "why don't you": [
-            "",
-            "",
-            ""
-        ],
-    # 1인칭 be동사 질문 관련
-    "am i": [
-            "",
-            "",
-            ""
-        ],
-    # 2인칭 be동사 질문 관련
-    "are you": [
-            "",
-            "",
-            ""
-        ],
-    # 원해
-    "want": [
+    # be동사 관련 토픽
+    "be": [
             "",
             "",
             ""
         ],
     # 필요해
     "need": [
-            "",
-            "",
-            ""
-        ],
-    # 이유 관련
-    "because": [
-            "",
-            "",
-            ""
-        ],
-    # 추측 관련
-    "maybe": [
             "",
             "",
             ""
