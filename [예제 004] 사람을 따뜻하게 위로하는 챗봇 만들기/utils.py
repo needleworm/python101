@@ -49,6 +49,8 @@ class Eliza:
             "nightmares": "dream",
             "sleep": "dream",
             "loves": "love",
+            "love": "love",
+            "loved": love",
             "affair": "love",
             "hates": "hate",
             "dislike": "hate",
@@ -83,6 +85,7 @@ class Eliza:
             "feel": "feel",
             "feeling": "feel",
             "feels": "feel",
+            "felt": "feel",
             "name": "name",
             "names": "name",
             "named": "name",
@@ -125,7 +128,7 @@ class Eliza:
 
         last_input = ""
         while True:
-            line = self.sanitize(input(""))
+            line = self.sanitize(input("> "))
             if not line:
                 answer = random.choice(["Hello?", "Are you still there?", "I'm listening."])
                 print("ELIZA> " + answer)
@@ -141,7 +144,7 @@ class Eliza:
                 origin, answer = self.find_keyword(line)
                 if answer.endswith("*"):
                     answer = answer[:-1]
-                    res = line.split(origin)[1].split(" ")
+                    res = line.split(origin)[1].strip().split(" ")
                     res2 = []
                     for el in res:
                         if el in self.conjugation.keys():
