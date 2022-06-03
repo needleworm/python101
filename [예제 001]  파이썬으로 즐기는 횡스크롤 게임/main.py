@@ -11,12 +11,17 @@ Open Source Sprites
 [2] shiny-diamonds - https://gamesupply.itch.io/shiny-diamonds
 """
 
+import time
 try:
     import pygame as P
-except:
+except ModuleNotFoundError:
     import pip
     pip.main(['install', "pygame"])
-    import pygame as P
+    try:
+        import pygame as P
+    except ModuleNotFoundError:
+        time.sleep(2)
+        import pygame as P
     
 import os
 import math

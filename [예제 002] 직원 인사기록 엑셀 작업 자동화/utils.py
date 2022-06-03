@@ -6,14 +6,19 @@ bhban@kakao.com
 https://github.com/needleworm/python101
 """
 
+import time
 
 try:
     import pyexcel as px
-except:
+except ModuleNotFoundError:
     import pip
     pip.main(['install', "pyexcel"])
     pip.main(['install', "pyexcel-xlsx"])
-    import pyexcel as px
+    try:
+        import pyexcel as px
+    except ModuleNotFoundError:
+        time.sleep(2)
+        import pyexcel as px
 
 import os
 
