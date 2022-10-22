@@ -50,7 +50,7 @@ class Eliza:
             "sleep": "dream",
             "loves": "love",
             "love": "love",
-            "loved": love",
+            "loved": "love",
             "affair": "love",
             "hates": "hate",
             "dislike": "hate",
