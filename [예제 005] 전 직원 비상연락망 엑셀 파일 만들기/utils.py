@@ -25,6 +25,9 @@ import os
 import random
 
 alphabet_samples = "abcdefghizklmnopqrstuvwxyz1234567890"
+first_name_samples = "김이박최정강조윤장임황윤"
+middle_name_samples = "민서예지도하주윤채현지"
+last_name_samples = "준윤우원호후서연아은진"
 
 
 def random_string(length):
@@ -32,11 +35,6 @@ def random_string(length):
     for i in range(length):
         result += random.choice(alphabet_samples)
     return result
-
-
-first_name_samples = "김이박최정강조윤장임황윤"
-middle_name_samples = "민서예지도하주윤채현지"
-last_name_samples = "준윤우원호후서연아은진"
 
 
 def random_name():
