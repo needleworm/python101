@@ -6,8 +6,23 @@ https://github.com/needleworm/python101
 """
 import utils as U
 
-# 영어를 한국어로 번역
-print(U.en_to_kr("This translator is powered by KAKAO Translator AI"))
+val = ""
+while val not in ['1', '2']:
+    val = input("모드를 선택하세요.\n\t1. 한국어 -> 영어\n\t2. 영어 -> 한국어\n")
+    if val not in ['1', '2']:
+        print("\n입력값이 잘못되었습니다. (1 또는 2 입력)")
 
-# 한국어를 영어로 번역
-print(U.kr_to_en("카카오는 인공지능을 활용한 번역기 시스템을 구축했습니다."))
+if val == '1':
+    while True:
+        text = input("\n한국어를 입력해주세요 (q to quit): \n")
+        if text == "q":
+            break
+        print(U.kr_to_en(text))
+
+else:
+    while True:
+        text = input("\n영어를 입력해주세요 (q to quit): \n")
+        if text == "q":
+            break
+        print(U.en_to_kr(text))
+
