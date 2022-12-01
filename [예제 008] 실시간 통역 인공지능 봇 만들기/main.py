@@ -20,11 +20,9 @@ if val == '1':
         if text == "q":
             break
         print(U.kr_to_en(text))
-
 else:
     while True:
         text = input("\n영어를 입력해주세요 (q to quit): \n")
         if text == "q":
             break
         print(U.en_to_kr(text))
-
