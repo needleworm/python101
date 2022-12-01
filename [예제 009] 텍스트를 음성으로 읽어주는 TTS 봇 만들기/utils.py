@@ -1,3 +1,9 @@
+"""
+2022. 12. 01.
+Byunghyun Ban
+bhban@kakao.com
+https://github.com/needleworm/python101
+"""
 import time
 
 try:
