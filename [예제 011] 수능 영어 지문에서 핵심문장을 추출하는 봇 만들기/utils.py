@@ -18,5 +18,8 @@ except ModuleNotFoundError:
         from summa import summarizer as S
 
 
-def extract(text, ratio=0.2):
-    return S.summarize(text, ratio=ratio)
+def extract(text, ratio=0.3):
+    result = S.summarize(text, ratio=ratio)
+    if not result:
+        result = "Summarization Failed"
+    return result
