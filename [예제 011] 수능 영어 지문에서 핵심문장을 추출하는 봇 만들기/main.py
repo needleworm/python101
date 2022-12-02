@@ -27,10 +27,13 @@ print(U.extract(sample_text))
 txt_files = os.listdir("sources")
 for filename in txt_files:
     if not filename.endswith(".txt"):
-            continue
+        continue
 
-    file = open("sources/" + filename, "a")
+    file = open("sources/" + filename)
     contents = file.read()
+    file.close()
+    file = open("sources/" + filename, "a")
+
     contents = contents.replace("\n", "")
     key_sentence = U.extract(contents)
 
