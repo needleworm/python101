@@ -1,0 +1,24 @@
+There is evidence that even very simple algorithms can
+outperform expert judgement on simple prediction problems.
+For example, algorithms have proved more accurate than
+humans in predicting whether a prisoner released on parole
+will go on to commit another crime, or in predicting whether
+a potential candidate will perform well in a job in future. In
+over 100 studies across many different domains, half of all
+cases show simple formulas make better significant
+predictions than human experts, and the remainder (except a
+very small handful), show a tie between the two. When there
+are a lot of different factors involved and a situation is very
+uncertain, simple formulas can win out by focusing on the
+most important factors and being consistent, while human
+judgement is too easily influenced by particularly salient and
+perhaps irrelevant considerations. A similar is
+supported by further evidence that ‘checklists’ can improve
+the quality of expert decisions in a range of domains by
+ensuring that important steps or considerations aren’t missed
+when people are feeling relaxed. For example, treating
+patients in intensive care can require hundreds of small
+actions per day, and one small error could cost a life. Using
+checklists to ensure that no crucial steps are missed has
+proved to be remarkably effective in a range of medical
+contexts, from preventing to reducing pneumonia.
