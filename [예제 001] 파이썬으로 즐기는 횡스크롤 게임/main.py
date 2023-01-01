@@ -20,6 +20,7 @@ except ModuleNotFoundError:
     try:
         import pygame as P
     except ModuleNotFoundError:
+        pip.main(['install', "pygame", "--pre"])
         time.sleep(2)
         import pygame as P
     
