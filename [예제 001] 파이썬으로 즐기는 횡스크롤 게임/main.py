@@ -20,10 +20,12 @@ except ModuleNotFoundError:
     try:
         import pygame as P
     except ModuleNotFoundError:
-        pip.main(['install', "pygame", "--pre"])
+        # 최신 파이썬 버전은 pygame 사전빌드(wheel)가 아직 없을 수 있습니다.
+        # 이 경우 API 호환 포크인 pygame-ce로 대신 설치합니다. (import pygame 그대로 사용 가능)
+        pip.main(['install', "pygame-ce"])
         time.sleep(2)
         import pygame as P
-    
+
 import os
 import math
 
