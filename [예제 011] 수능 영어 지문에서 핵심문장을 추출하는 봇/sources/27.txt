@@ -23,3 +23,6 @@ restaurant.
 We will take all possible measures to minimize noise and
 any other inconvenience. We sincerely appreciate your
 understanding.
+
+[핵심 문장 분석 결과]
+Summarization Failed

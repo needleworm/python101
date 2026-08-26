@@ -11,3 +11,6 @@ is to analyze all the possible scenarios that the future holds and
 then to see what proportion of them lead to success or failure.
 This gives you a much better map of the future on which to base
 your decisions about which path to choose.
+
+[핵심 문장 분석 결과]
+Each choice involves uncertainty about which path willget you to your destination.

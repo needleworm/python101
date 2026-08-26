@@ -13,3 +13,7 @@ to your reply.
 
 Sincerely,
 Michael Brown
+
+[핵심 문장 분석 결과]
+To whom it may concern,My name is Michael Brown.
+I look forwardto your reply.Sincerely,Michael Brown

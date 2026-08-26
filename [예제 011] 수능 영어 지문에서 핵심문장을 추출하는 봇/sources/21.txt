@@ -15,3 +15,6 @@ private; one would write for oneself, or, in Habermas’s
 formulation, one would make oneself public to oneself. By
 making the self public in a private sphere, the self also became
 an object for self-inspection and self-critique.
+
+[핵심 문장 분석 결과]
+Bymaking the self public in a private sphere, the self also becamean object for self-inspection and self-critique.

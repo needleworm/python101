@@ -16,3 +16,6 @@ particularly encouraged when combined with policies that
 restrict motor vehicle access to specific areas of a city, such as
 downtown or commercial districts, or with the extension of
 dedicated bike lanes.
+
+[핵심 문장 분석 결과]
+Using bicycles as cargo vehicles isparticularly encouraged when combined with policies thatrestrict motor vehicle access to specific areas of a city, such asdowntown or commercial districts, or with the extension ofdedicated bike lanes.

@@ -16,3 +16,7 @@ how someone could see an object without seeing what color it
 is. Even today, you might find it surprising to learn about
 people who see an object without seeing where it is, or see it
 without seeing whether it is moving.
+
+[핵심 문장 분석 결과]
+Cells that help your hand musclesreach out to an object need to know the size and location ofthe object, but they don’t need to know about color.
+However, one part of your brain sees its shape,another sees color, another detects location, and anotherperceives movement.

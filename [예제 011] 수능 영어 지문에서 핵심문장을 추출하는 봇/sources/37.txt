@@ -19,3 +19,6 @@ and certain consumer cases are billed. In this approach,
 lawyers do not receive fees or payment until the case is
 settled, when they are paid a percentage of the money that
 the client receives.
+
+[핵심 문장 분석 결과]
+From the client’s point of view, the pricingmakes sense in part because most clients in these cases areunfamiliar with and possibly intimidated by law firms.Their biggest fears are high fees for a case that may takeyears to settle.(B) By using contingency pricing, clients are ensured that theypay no fees until they receive a settlement.

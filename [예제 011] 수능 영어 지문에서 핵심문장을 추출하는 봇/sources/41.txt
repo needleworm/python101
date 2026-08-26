@@ -22,3 +22,6 @@ actions per day, and one small error could cost a life. Using
 checklists to ensure that no crucial steps are missed has
 proved to be remarkably effective in a range of medical
 contexts, from preventing to reducing pneumonia.
+
+[핵심 문장 분석 결과]
+A similar issupported by further evidence that ‘checklists’ can improvethe quality of expert decisions in a range of domains byensuring that important steps or considerations aren’t missedwhen people are feeling relaxed.

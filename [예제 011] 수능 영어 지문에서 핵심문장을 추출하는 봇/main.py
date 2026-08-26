@@ -29,10 +29,16 @@ for filename in txt_files:
     if not filename.endswith(".txt"):
         continue
 
-    file = open("sources/" + filename)
-    contents = file.read()
+    try:
+        file = open("sources/" + filename, encoding="utf8")
+        contents = file.read()
+    except UnicodeDecodeError:
+        file.close()
+        file = open("sources/" + filename, encoding="cp949")
+        contents = file.read()
+    encoding = file.encoding
     file.close()
-    file = open("sources/" + filename, "a")
+    file = open("sources/" + filename, "a", encoding=encoding)
 
     contents = contents.replace("\n", "")
     key_sentence = U.extract(contents)

@@ -16,3 +16,6 @@ time is correlated with the colony’s overall need of water. Thus
 the individual water forager’s response to unloading time (up or
 down) regulates water collection in response to the colony’s
 need.
+
+[핵심 문장 분석 결과]
+Conversely, if this search time is long thenthe bee is more likely to give up collecting water.

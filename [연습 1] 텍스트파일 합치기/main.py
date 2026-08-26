@@ -46,7 +46,7 @@ def random_name():
 
 
 # 결과물을 저장할 폴더를 생성합니다.
-os.mkdir("personal_info")
+os.makedirs("personal_info", exist_ok=True)
 
 # 개인정보 파일을 자동으로 생성하는 부분입니다.
 # NUM_SAMPLES 회수만큼 반복합니다.

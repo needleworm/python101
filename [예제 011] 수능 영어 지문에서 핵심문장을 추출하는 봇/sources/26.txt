@@ -11,3 +11,7 @@ professor of sociology at the University of Bielefeld. He
 researched a variety of subjects, including mass media and
 law. Although his books are known to be difficult to translate,
 they have in fact been widely translated into other languages.
+
+[핵심 문장 분석 결과]
+In 1960—1961,Luhmann had the chance to study sociology at HarvardUniversity, where he was influenced by Talcott Parsons, oneof the most famous social system theorists.
+In 1968, he became aprofessor of sociology at the University of Bielefeld.

@@ -19,3 +19,7 @@ trait that came to exist in a species because it contributed
 to reproductive fitness. There are many cases, across
 many species, of adaptive plasticity. Plasticity is conducive
 to fitness if there is sufficient variation in the environment.
+
+
+[핵심 문장 분석 결과]
+If the water around itdoesn’t include the chemical signatures of predators, thewater flea doesn’t develop these protective devices.(C) So it may well be that this plasticity is an adaptation: atrait that came to exist in a species because it contributedto reproductive fitness.
